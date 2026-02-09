@@ -1,0 +1,194 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "name": "Alerts",
+      "keywords": ["alert", "notification", "banner", "toast", "message", "info", "warning", "error", "success"],
+      "description": "1-2 short sentences (50-120 chars). Four types: informational (blue, 'i' icon), warning (yellow, warning icon), error (red, 'x' icon), success (green, checkmark). Sentence case. Clear, direct, non-alarming tone. [Action] + [Result/Impact] structure.",
+      "dos": [
+        "Use sentence case for all alert text",
+        "Lead with consequence or question, follow with directive",
+        "Use standard phrasing for similar alert types",
+        "End complete sentences with periods",
+        "Keep between 50-120 characters",
+        "Use [Action] + [Result/Impact] structure",
+        "Match tone to alert type (informational vs. error)",
+        "Include next steps when relevant (e.g. 'Please try again')"
+      ],
+      "donts": [
+        "Don't use alarming or aggressive language",
+        "Don't use technical jargon unless necessary",
+        "Don't mix alert types (e.g. success message in error alert)",
+        "Don't exceed 120 characters",
+        "Don't omit the action/result structure",
+        "Don't use inconsistent terminology across similar alerts"
+      ]
+    },
+    {
+      "name": "Buttons",
+      "keywords": ["button", "btn", "cta", "action", "submit", "primary", "secondary", "tertiary"],
+      "description": "1-3 words (max 25 chars). Sentence case. Verb + Object format preferred (e.g. 'Save changes'). Primary: solid blue bg + white text. Secondary: white bg + visible stroke. Tertiary: no fill, text only.",
+      "dos": [
+        "Use sentence case (capitalize first word only)",
+        "Use Verb + Object format: 'Add new insurance', 'Send payment'",
+        "Be specific about the action: 'Upload faxes' not just 'Upload'",
+        "Use consistent verbs for similar actions",
+        "Use strong verbs for primary buttons: 'Create', 'Send', 'Save'",
+        "Use clear opposites for opposing actions: 'Save' / 'Cancel'",
+        "Keep to 1-3 words, max 25 characters",
+        "Use '+' icon before text for creation/addition actions"
+      ],
+      "donts": [
+        "Don't use Title Case (e.g. 'Save Changes' is wrong, use 'Save changes')",
+        "Don't use all caps",
+        "Don't use vague labels like 'Submit' when you can be specific",
+        "Don't use different verbs for the same action type",
+        "Don't exceed 25 characters",
+        "Don't use icons without accompanying text labels"
+      ]
+    },
+    {
+      "name": "Input Fields",
+      "keywords": ["input", "field", "text field", "form", "label", "placeholder", "dropdown", "select", "textbox", "textarea"],
+      "description": "Labels: 1-3 words, sentence case, max 25 chars. Required fields marked with asterisk (*) at end. Placeholder shows format only, not instructions. Helper text below field for complex format rules. Error pattern: 'Please enter a valid [field type]'.",
+      "dos": [
+        "Use sentence case for labels",
+        "Place asterisk (*) at the end of required field labels",
+        "Use format examples for placeholders: 'MM/DD/YYYY', '000-000-0000'",
+        "Use 'Select' as placeholder for dropdowns",
+        "Keep error messages under 40 characters",
+        "Follow 'Please enter a valid [field]' error pattern",
+        "Keep helper text under 50 characters",
+        "Place labels above the input field"
+      ],
+      "donts": [
+        "Don't put asterisk before the label ('* Email' is wrong)",
+        "Don't use punctuation at end of labels or error messages",
+        "Don't use 'Enter your...' as placeholder text",
+        "Don't use Title Case for labels",
+        "Don't use wordy placeholder text ('Choose from the list.')",
+        "Don't use helper text when placeholder is sufficient",
+        "Don't use 'Invalid [field]' error pattern",
+        "Don't exceed 25 characters for labels"
+      ]
+    },
+    {
+      "name": "Tooltips",
+      "keywords": ["tooltip", "tip", "hint", "popover", "hover", "info icon"],
+      "description": "Brief explanations (20-75 chars). Sentence case. White text on grey background. Use 'i' icon in circle for information tooltips. Key information first, then details.",
+      "dos": [
+        "Keep simple tooltips to 20-40 characters",
+        "Keep complex tooltips to 40-75 characters",
+        "Put key information first (action, object, outcome)",
+        "Include next steps for status indicators",
+        "Include validation requirements for form fields",
+        "Always add tooltips to icon-only buttons",
+        "Align terminology with documentation",
+        "Use consistent verbs across similar actions"
+      ],
+      "donts": [
+        "Don't use tooltips for multi-step processes (use inline help)",
+        "Don't use tooltips to replace essential UI text",
+        "Don't exceed 75 characters",
+        "Don't omit tooltips on icon-only buttons",
+        "Don't use inconsistent terminology"
+      ]
+    },
+    {
+      "name": "Settings",
+      "keywords": ["setting", "preference", "config", "toggle", "switch", "option"],
+      "description": "Setting name: 3-7 words, Title Case. Description: 1-2 sentences, sentence case. Toggle format: 'Enable this setting to [action] [object] in [location] [benefit].'",
+      "dos": [
+        "Use Title Case for setting names",
+        "Use sentence case for descriptions",
+        "Follow toggle format: 'Enable this setting to [action]...'",
+        "Follow selection format: 'Select whether [object] should...'",
+        "Keep descriptions to 1-2 sentences",
+        "Be specific about the setting's effect and location"
+      ],
+      "donts": [
+        "Don't use vague setting names",
+        "Don't omit the benefit/impact in descriptions",
+        "Don't use technical jargon in descriptions",
+        "Don't use more than 7 words for setting names"
+      ]
+    },
+    {
+      "name": "Table Headers",
+      "keywords": ["table", "header", "column", "grid", "data table", "list"],
+      "description": "1-2 words (max 20 chars). Title Case. Neutral, descriptive tone. Noun or short noun phrase.",
+      "dos": [
+        "Use Title Case for all column headers",
+        "Keep to 1-2 words maximum",
+        "Use nouns or short noun phrases",
+        "Stay under 20 characters",
+        "Examples: 'Title', 'Patients', 'Status', 'Delivery Time'"
+      ],
+      "donts": [
+        "Don't use sentence case for table headers",
+        "Don't use verbs in column headers",
+        "Don't exceed 20 characters",
+        "Don't use abbreviations without established convention"
+      ]
+    },
+    {
+      "name": "Statuses",
+      "keywords": ["status", "state", "badge", "tag", "chip", "indicator", "progress"],
+      "description": "Use sentence case for all status indicators.",
+      "dos": [
+        "Use sentence case: 'In progress', 'Pending review', 'Completed'",
+        "Be consistent across the product",
+        "Use clear, recognizable status labels"
+      ],
+      "donts": [
+        "Don't use Title Case for statuses ('In Progress' is wrong)",
+        "Don't use all caps",
+        "Don't use technical or ambiguous status labels"
+      ]
+    },
+    {
+      "name": "Modals",
+      "keywords": ["modal", "dialog", "popup", "overlay", "confirm", "confirmation", "delete", "warning"],
+      "description": "Title: 2-5 words, sentence case. Body: 1-3 sentences, sentence case. Confirmation/warning modals use 'Are you sure?' title. Include 'This cannot be undone' for destructive actions. Primary button should match the title question.",
+      "dos": [
+        "Use 'Are you sure?' for confirmation and warning modals",
+        "Include 'This cannot be undone' for irreversible actions",
+        "Match button copy to title: 'Are you sure?' → 'I'm sure'",
+        "Reference the specific item being affected",
+        "Use sentence case for titles and body text",
+        "Keep titles to 2-5 words",
+        "Deletion title: 'Delete [Item Name]?' or 'Delete the [type] \"[name]\"?'",
+        "Success title: specific action completed (e.g. 'Workflow Created')"
+      ],
+      "donts": [
+        "Don't use vague body text that doesn't explain consequences",
+        "Don't forget 'This cannot be undone' for destructive actions",
+        "Don't use generic button labels that don't match the action",
+        "Don't use Title Case for modal titles",
+        "Don't exceed 3 sentences in body text"
+      ]
+    },
+    {
+      "name": "General Copy",
+      "keywords": ["copy", "text", "label", "heading", "paragraph", "description", "general", "writing"],
+      "description": "Sentence case. Conversational but professional tone. Active voice. Second person ('you'). Clarity first, positive framing. Use standard Luma terminology.",
+      "dos": [
+        "Use sentence case everywhere except Title Case where specified",
+        "Use active voice when describing actions",
+        "Use second person ('you') when addressing the user",
+        "Prioritize clarity over cleverness",
+        "Focus on what users can do (positive framing)",
+        "Use 'zip code' (not 'Post code' or 'Postal code')",
+        "Remove unnecessary words while maintaining clarity"
+      ],
+      "donts": [
+        "Don't use passive voice for user actions",
+        "Don't use first person ('we', 'I')",
+        "Don't use jargon or overly technical language",
+        "Don't be clever at the expense of clarity",
+        "Don't focus on limitations (use positive framing instead)",
+        "Don't use 'Post code' or 'Postal code' (use 'zip code')"
+      ]
+    }
+  ]
+}
