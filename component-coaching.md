@@ -305,7 +305,7 @@ Length: 1-2 words (max 20 chars). Title Case. Neutral, descriptive tone. Noun or
 - Examples: 'Title', 'Patients', 'Status', 'Delivery Time', 'Created', 'Specialty', 'Confidence', 'Received', 'Facility', 'Type'
 
 ## Don't
-- Don't use sentence case for table headers
+- Don't use sentence case for table headers!
 - Don't use verbs in column headers
 - Don't exceed 20 characters
 - Don't use abbreviations without established convention
